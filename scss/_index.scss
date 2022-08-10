@@ -1,0 +1,40 @@
+
+.text {font-family: impact;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.496), rgba(0, 0, 0, 0.479)), url(https://ep01.epimg.net/elcomidista/imagenes/2017/03/22/receta/1490207087_380172_1490208031_media_normal.jpg);
+    background-position: center;
+    background-size: cover;
+    border: solid 5px black;
+    height: 650px;
+    background-attachment: fixed;}
+.text1 {display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 20px;
+    margin-left: 20px;}
+.text2 {margin-right: 20px; padding: 10px;}
+.text3 {margin-top: 30px; text-align: center; width: 1500px;}
+.not {color: white ;
+    font-size:30px ;
+    font-weight:400;}
+.gluten {color:rgb(246, 187, 78) ;
+    font-size:30px ;
+    font-weight:400;}
+.llevatuestilo {color:white ;
+    font-size:100px ;
+    font-weight:300 ;
+    animation-name: titulo;
+    animation-duration: 0.9s;
+    animation-delay: 0.2;
+    animation-timing-function: ease;}
+.anotgluten {color:rgb(246, 187, 78) ;
+    font-size:100px ;
+    font-weight:300 ;
+    animation-name: titulo;
+    animation-duration: 0.9s;
+    animation-delay: 0.2;
+    animation-timing-function: ease;}
+
+    @keyframes titulo {
+        0% {transform: translateY(300px) ;}
+        100% {transform: translateY(0px);}
+    }
